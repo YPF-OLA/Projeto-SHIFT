@@ -28,11 +28,16 @@ body, h1, h2, p, figure, ul {
 }
 
 
-
-.menu li{
+.menu li:nth-last-child(4){
     border-left: solid 1px;
     height: 50px;
+    
+} 
 
+.menu li{
+    border-right: solid 1px;
+    height: 50px;
+    
 } 
 
 
